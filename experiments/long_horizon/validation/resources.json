@@ -1,0 +1,12 @@
+{
+  "wall_seconds": 498.6787350449995,
+  "exit_code": 0,
+  "sampled_peak_summed_rss_bytes": null,
+  "rss_note": "Unavailable for this batch: nested PID namespace mismatch produced an invalid zero counter. See separate corrected memory probe.",
+  "runtime_storage_bytes": 1469642678,
+  "runtime_file_count": 98700,
+  "cpu_count_visible": 9,
+  "gpu_required": false,
+  "llm_api_calls": 0,
+  "raw_rss_counter_bytes": 0
+}

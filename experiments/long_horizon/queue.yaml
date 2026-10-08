@@ -1,0 +1,90 @@
+# Paired seeds; unmodified upstream policies, public synthetic catalog.
+base_url: http://127.0.0.1:5050
+poll_seconds: 2
+max_parallel: 1
+interval_ms: 0
+scenario_path: env/scenarios/default.yaml
+days: 365
+bootstrap_agent: rule_based
+detailed: false
+queue:
+  - model: rule-random
+    selection_mode: random
+    seed: 42
+    selection_seed: 42
+  - model: rule-daily_report
+    selection_mode: daily_report
+    seed: 42
+    selection_seed: 42
+  - model: rule-random
+    selection_mode: random
+    seed: 7
+    selection_seed: 7
+  - model: rule-daily_report
+    selection_mode: daily_report
+    seed: 7
+    selection_seed: 7
+  - model: rule-random
+    selection_mode: random
+    seed: 19
+    selection_seed: 19
+  - model: rule-daily_report
+    selection_mode: daily_report
+    seed: 19
+    selection_seed: 19
+  - model: rule-random
+    selection_mode: random
+    seed: 73
+    selection_seed: 73
+  - model: rule-daily_report
+    selection_mode: daily_report
+    seed: 73
+    selection_seed: 73
+  - model: rule-random
+    selection_mode: random
+    seed: 101
+    selection_seed: 101
+  - model: rule-daily_report
+    selection_mode: daily_report
+    seed: 101
+    selection_seed: 101
+  - model: rule-random
+    selection_mode: random
+    seed: 137
+    selection_seed: 137
+  - model: rule-daily_report
+    selection_mode: daily_report
+    seed: 137
+    selection_seed: 137
+  - model: rule-random
+    selection_mode: random
+    seed: 211
+    selection_seed: 211
+  - model: rule-daily_report
+    selection_mode: daily_report
+    seed: 211
+    selection_seed: 211
+  - model: rule-random
+    selection_mode: random
+    seed: 307
+    selection_seed: 307
+  - model: rule-daily_report
+    selection_mode: daily_report
+    seed: 307
+    selection_seed: 307
+  - model: rule-random
+    selection_mode: random
+    seed: 401
+    selection_seed: 401
+  - model: rule-daily_report
+    selection_mode: daily_report
+    seed: 401
+    selection_seed: 401
+  - model: rule-random
+    selection_mode: random
+    seed: 509
+    selection_seed: 509
+  - model: rule-daily_report
+    selection_mode: daily_report
+    seed: 509
+    selection_seed: 509

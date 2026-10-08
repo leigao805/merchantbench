@@ -1,0 +1,11 @@
+{
+  "wall_seconds": 52.288695081002516,
+  "exit_code": 0,
+  "sampled_peak_summed_rss_bytes": 256331776,
+  "rss_note": "Launcher/server/collector/agent tree, Linux /proc sampled every .5s; shared pages counted per process; not a strict memory bound",
+  "runtime_storage_bytes": 144744564,
+  "runtime_file_count": 9763,
+  "cpu_count_visible": 9,
+  "gpu_required": false,
+  "llm_api_calls": 0
+}
