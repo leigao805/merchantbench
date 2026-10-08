@@ -146,6 +146,12 @@ def jobs_from_config(
             raise ValueError(f"queue item must be a model string or mapping: {item!r}")
 
         job.setdefault("scenario_path", config["scenario_path"])
+        if "interval_ms" in config:
+            job.setdefault("interval_ms", config["interval_ms"])
+        if "interval_ms" in job:
+            value = job["interval_ms"]
+            if isinstance(value, bool) or not isinstance(value, int) or value < 0:
+                raise ValueError("interval_ms must be a non-negative integer")
         if "detailed" not in job and "detailed" in config:
             job["detailed"] = config["detailed"]
         if "detailed" in job and not isinstance(job["detailed"], bool):
@@ -324,6 +330,11 @@ def create_run(base_url: str, job: str | dict[str, Any]) -> str:
         "bootstrap_config": bootstrap_config,
         "auto_start": True,
     }
+    if "interval_ms" in job:
+        value = job["interval_ms"]
+        if isinstance(value, bool) or not isinstance(value, int) or value < 0:
+            raise ValueError("interval_ms must be a non-negative integer")
+        body["interval_ms"] = value
     return request_json("POST", base_url, "/runs", body=body)["run_id"]
 
 

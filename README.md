@@ -203,6 +203,10 @@ Edit `scripts/batch_queue.yaml`, start the simulator, and run:
 The default queue file is an API-key-free rule-based smoke configuration.
 Change `bootstrap_agent` and model entries when reproducing LLM experiments.
 
+For paired 365-day, multi-seed rule-based experiments, resumable collection,
+drawdown diagnostics, and the important **missing private daily-report** caveat,
+see [the long-horizon evaluation guide](docs/long_horizon_evaluation.md).
+
 ## Containerized evaluation
 
 ```bash

@@ -30,8 +30,10 @@ def main() -> None:
     p.add_argument("--host", default="127.0.0.1")
     p.add_argument("--port", type=int, default=5050)
     p.add_argument("--debug", action="store_true")
+    p.add_argument("--runs-root", help="Local directory for run databases and snapshots")
+    p.add_argument("--db-path", help="Legacy registry database path (optional)")
     args = p.parse_args()
-    app = create_app()
+    app = create_app(runs_root=args.runs_root, db_path=args.db_path)
     signal.signal(signal.SIGTERM, _exit_on_sigterm)
     try:
         app.run(host=args.host, port=args.port, debug=args.debug, use_reloader=False, threaded=True)

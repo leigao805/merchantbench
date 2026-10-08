@@ -1,0 +1,450 @@
+{
+  "protocol": "eval.scoring.compute unchanged; independent diagnostics",
+  "analyzer_sha256": "c29c176694f94070de3120209bbf05e4b4b87199c6653616d4f14ce1d05a590a",
+  "manifest_fingerprint": "bee1e43ee5f6d216d82d898c51e38c6e301555be135ae277ceda0458dff6ff52",
+  "planned": 20,
+  "completed": 20,
+  "incomplete": [],
+  "groups": {
+    "daily_report": {
+      "final_net_assets": {
+        "n": 10,
+        "mean": 4890.868,
+        "median": 5239.094999999999,
+        "std": 1305.6056208246382,
+        "min": 3035.64,
+        "max": 6526.83
+      },
+      "net_profit": {
+        "n": 10,
+        "mean": 1890.868,
+        "median": 2239.0950000000003,
+        "std": 1305.6056208246382,
+        "min": 35.64,
+        "max": 3526.83
+      },
+      "shop_rating_mean": {
+        "n": 10,
+        "mean": 3.9982100000000003,
+        "median": 3.9992,
+        "std": 0.002992007872835704,
+        "min": 3.9902,
+        "max": 4.0007
+      },
+      "survived_horizon": {
+        "n": 10,
+        "mean": 1,
+        "median": 1.0,
+        "std": 0.0,
+        "min": true,
+        "max": true,
+        "wilson_95pct_interval": [
+          0.7224672001371107,
+          0.9999999999999999
+        ]
+      },
+      "max_drawdown_absolute": {
+        "n": 10,
+        "mean": 88.07612357888993,
+        "median": 77.68499999999904,
+        "std": 69.08835849160208,
+        "min": 5.0,
+        "max": 189.72536910528106
+      },
+      "max_drawdown_fraction": {
+        "n": 10,
+        "mean": 0.016688692746576902,
+        "median": 0.014960941554593286,
+        "std": 0.011342061887218272,
+        "min": 0.0016666666666666668,
+        "max": 0.03569722081343006
+      },
+      "asset_return_fraction": {
+        "n": 10,
+        "mean": 0.6302896961412059,
+        "median": 0.7463665553475288,
+        "std": 0.43520238656201177,
+        "min": 0.011879549646535814,
+        "max": 1.175610714283453
+      },
+      "wall_seconds": {
+        "n": 10,
+        "mean": 45.22052979469299,
+        "median": 45.339715361595154,
+        "std": 1.5255966701131265,
+        "min": 43.14204144477844,
+        "max": 47.56157183647156
+      },
+      "final_active_listings": {
+        "n": 10,
+        "mean": 0.0,
+        "median": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "horizon_fraction_with_listings": {
+        "n": 10,
+        "mean": 0.04506849315068493,
+        "median": 0.04246575342465754,
+        "std": 0.022935378072207795,
+        "min": 0.015068493150684932,
+        "max": 0.09178082191780822
+      }
+    },
+    "random": {
+      "final_net_assets": {
+        "n": 10,
+        "mean": 3183.52,
+        "median": 3489.71,
+        "std": 885.8756602995203,
+        "min": 1244.37,
+        "max": 3885.98
+      },
+      "net_profit": {
+        "n": 10,
+        "mean": 181.845,
+        "median": 489.215,
+        "std": 886.5782530512089,
+        "min": -1759.59,
+        "max": 885.48
+      },
+      "shop_rating_mean": {
+        "n": 10,
+        "mean": 3.10121,
+        "median": 3.1669,
+        "std": 0.415586023853332,
+        "min": 2.4827,
+        "max": 3.8213
+      },
+      "survived_horizon": {
+        "n": 10,
+        "mean": 0,
+        "median": 0.0,
+        "std": 0.0,
+        "min": false,
+        "max": false,
+        "wilson_95pct_interval": [
+          0.0,
+          0.2775327998628892
+        ]
+      },
+      "max_drawdown_absolute": {
+        "n": 10,
+        "mean": 1145.7388426050304,
+        "median": 1101.07102946617,
+        "std": 269.2218914687022,
+        "min": 725.0,
+        "max": 1755.6303634106494
+      },
+      "max_drawdown_fraction": {
+        "n": 10,
+        "mean": 0.38191294753501015,
+        "median": 0.36702367648872336,
+        "std": 0.0897406304895674,
+        "min": 0.24166666666666667,
+        "max": 0.5852101211368831
+      },
+      "asset_return_fraction": {
+        "n": 10,
+        "mean": 0.06117315882636034,
+        "median": 0.16323585400997542,
+        "std": 0.2952918898642279,
+        "min": -0.5852101211368832,
+        "max": 0.2953266666666665
+      },
+      "wall_seconds": {
+        "n": 10,
+        "mean": 3.9755845069885254,
+        "median": 3.0215847492218018,
+        "std": 2.218231344065058,
+        "min": 2.761249542236328,
+        "max": 9.10151219367981
+      },
+      "final_active_listings": {
+        "n": 10,
+        "mean": 50.0,
+        "median": 50.0,
+        "std": 0.0,
+        "min": 50.0,
+        "max": 50.0
+      },
+      "horizon_fraction_with_listings": {
+        "n": 10,
+        "mean": 0.012614155251141552,
+        "median": 0.0045662100456621,
+        "std": 0.017510276912254635,
+        "min": 0.003767123287671233,
+        "max": 0.05331050228310502
+      }
+    }
+  },
+  "paired_daily_report_minus_random": {
+    "final_net_assets": {
+      "n": 10,
+      "mean": 1707.348,
+      "median": 2058.3199999999997,
+      "std": 1663.9771016106092,
+      "min": -534.1799999999998,
+      "max": 3880.75,
+      "bootstrap_95pct_ci_mean": [
+        690.885,
+        2692.028
+      ]
+    },
+    "net_profit": {
+      "n": 10,
+      "mean": 1709.0230000000001,
+      "median": 2059.0150000000003,
+      "std": 1664.9113873119827,
+      "min": -533.98,
+      "max": 3884.71,
+      "bootstrap_95pct_ci_mean": [
+        691.806,
+        2694.436
+      ]
+    },
+    "shop_rating_mean": {
+      "n": 10,
+      "mean": 0.897,
+      "median": 0.8306,
+      "std": 0.41604984744085116,
+      "min": 0.17790000000000017,
+      "max": 1.516,
+      "bootstrap_95pct_ci_mean": [
+        0.6557700000000001,
+        1.14235
+      ]
+    },
+    "survived_horizon": {
+      "n": 10,
+      "mean": 1,
+      "median": 1.0,
+      "std": 0.0,
+      "min": 1,
+      "max": 1,
+      "bootstrap_95pct_ci_mean": [
+        1,
+        1
+      ]
+    },
+    "max_drawdown_absolute": {
+      "n": 10,
+      "mean": -1057.6627190261406,
+      "median": -1017.0540264240581,
+      "std": 223.5533401822144,
+      "min": -1565.9049943053683,
+      "max": -695.0999999999995,
+      "bootstrap_95pct_ci_mean": [
+        -1200.1761320071626,
+        -938.3412828416482
+      ]
+    },
+    "max_drawdown_fraction": {
+      "n": 10,
+      "mean": -0.36522425478843323,
+      "median": -0.35167461270053635,
+      "std": 0.0811720262431277,
+      "min": -0.549512900323453,
+      "max": -0.2345589590878875,
+      "bootstrap_95pct_ci_mean": [
+        -0.4176846953442247,
+        -0.3219234905153175
+      ]
+    },
+    "asset_return_fraction": {
+      "n": 10,
+      "mean": 0.5691165373148456,
+      "median": 0.6861068981818007,
+      "std": 0.5546596847597348,
+      "min": -0.17806063092327173,
+      "max": 1.293584952019979,
+      "bootstrap_95pct_ci_mean": [
+        0.23029544893480866,
+        0.8973433645702057
+      ]
+    },
+    "wall_seconds": {
+      "n": 10,
+      "mean": 41.24494528770447,
+      "median": 41.458943128585815,
+      "std": 2.5700497570677214,
+      "min": 36.2150137424469,
+      "max": 44.55102849006653,
+      "bootstrap_95pct_ci_mean": [
+        39.6845134973526,
+        42.65893473625183
+      ]
+    },
+    "final_active_listings": {
+      "n": 10,
+      "mean": -50.0,
+      "median": -50.0,
+      "std": 0.0,
+      "min": -50.0,
+      "max": -50.0,
+      "bootstrap_95pct_ci_mean": [
+        -50.0,
+        -50.0
+      ]
+    },
+    "horizon_fraction_with_listings": {
+      "n": 10,
+      "mean": 0.03245433789954338,
+      "median": 0.03784246575342466,
+      "std": 0.033003353827845056,
+      "min": -0.02454337899543379,
+      "max": 0.08618721461187215,
+      "bootstrap_95pct_ci_mean": [
+        0.013047945205479455,
+        0.051164383561643836
+      ]
+    }
+  },
+  "pairs": [
+    {
+      "seed": 7,
+      "final_net_assets": 3486.8199999999997,
+      "net_profit": 3488.0200000000004,
+      "shop_rating_mean": 1.516,
+      "survived_horizon": 1,
+      "max_drawdown_absolute": -1152.4176429792537,
+      "max_drawdown_fraction": -0.41269961169499686,
+      "asset_return_fraction": 1.1622750122176966,
+      "wall_seconds": 38.44193768501282,
+      "final_active_listings": -50.0,
+      "horizon_fraction_with_listings": -0.005136986301369863
+    },
+    {
+      "seed": 19,
+      "final_net_assets": -502.0,
+      "net_profit": -501.9,
+      "shop_rating_mean": 1.1549999999999998,
+      "survived_horizon": 1,
+      "max_drawdown_absolute": -1109.909093467082,
+      "max_drawdown_fraction": -0.3699696978223606,
+      "asset_return_fraction": -0.16733215837341509,
+      "wall_seconds": 40.64118146896362,
+      "final_active_listings": -50.0,
+      "horizon_fraction_with_listings": 0.010844748858447488
+    },
+    {
+      "seed": 42,
+      "final_net_assets": 1361.1400000000003,
+      "net_profit": 1362.0700000000002,
+      "shop_rating_mean": 0.17790000000000017,
+      "survived_horizon": 1,
+      "max_drawdown_absolute": -1012.433070340152,
+      "max_drawdown_fraction": -0.3465877856299032,
+      "asset_return_fraction": 0.45371191642219055,
+      "wall_seconds": 42.28501772880554,
+      "final_active_listings": -50.0,
+      "horizon_fraction_with_listings": 0.049086757990867584
+    },
+    {
+      "seed": 73,
+      "final_net_assets": 2238.18,
+      "net_profit": 2239.07,
+      "shop_rating_mean": 0.9066000000000001,
+      "survived_horizon": 1,
+      "max_drawdown_absolute": -1152.1371654816369,
+      "max_drawdown_fraction": -0.3956903733819792,
+      "asset_return_fraction": 0.7460607940458519,
+      "wall_seconds": 44.4090313911438,
+      "final_active_listings": -50.0,
+      "horizon_fraction_with_listings": 0.08618721461187215
+    },
+    {
+      "seed": 101,
+      "final_net_assets": 3880.75,
+      "net_profit": 3884.71,
+      "shop_rating_mean": 1.488,
+      "survived_horizon": 1,
+      "max_drawdown_absolute": -1565.9049943053683,
+      "max_drawdown_fraction": -0.549512900323453,
+      "asset_return_fraction": 1.293584952019979,
+      "wall_seconds": 36.2150137424469,
+      "final_active_listings": -50.0,
+      "horizon_fraction_with_listings": -0.02454337899543379
+    },
+    {
+      "seed": 137,
+      "final_net_assets": 1878.4599999999996,
+      "net_profit": 1878.96,
+      "shop_rating_mean": 1.0412000000000003,
+      "survived_horizon": 1,
+      "max_drawdown_absolute": -695.0999999999995,
+      "max_drawdown_fraction": -0.2345589590878875,
+      "asset_return_fraction": 0.6261530023177495,
+      "wall_seconds": 42.235586166381836,
+      "final_active_listings": -50.0,
+      "horizon_fraction_with_listings": 0.04166666666666667
+    },
+    {
+      "seed": 211,
+      "final_net_assets": -355.6899999999996,
+      "net_profit": -353.75,
+      "shop_rating_mean": 0.6109,
+      "survived_horizon": 1,
+      "max_drawdown_absolute": -1017.8077976574857,
+      "max_drawdown_fraction": -0.3394044025322883,
+      "asset_return_fraction": -0.1185636154769052,
+      "wall_seconds": 40.380791902542114,
+      "final_active_listings": -50.0,
+      "horizon_fraction_with_listings": 0.01815068493150685
+    },
+    {
+      "seed": 307,
+      "final_net_assets": 2761.09,
+      "net_profit": 2765.35,
+      "shop_rating_mean": 0.6036999999999999,
+      "survived_horizon": 1,
+      "max_drawdown_absolute": -1016.3002551906304,
+      "max_drawdown_fraction": -0.3567614397711694,
+      "asset_return_fraction": 0.9203653866151269,
+      "wall_seconds": 44.55102849006653,
+      "final_active_listings": -50.0,
+      "horizon_fraction_with_listings": 0.056849315068493146
+    },
+    {
+      "seed": 401,
+      "final_net_assets": -534.1799999999998,
+      "net_profit": -533.98,
+      "shop_rating_mean": 0.7161000000000004,
+      "survived_horizon": 1,
+      "max_drawdown_absolute": -921.8342053745444,
+      "max_drawdown_fraction": -0.3077632096509586,
+      "asset_return_fraction": -0.17806063092327173,
+      "wall_seconds": 40.682300090789795,
+      "final_active_listings": -50.0,
+      "horizon_fraction_with_listings": 0.03401826484018265
+    },
+    {
+      "seed": 509,
+      "final_net_assets": 2858.91,
+      "net_profit": 2861.68,
+      "shop_rating_mean": 0.7545999999999999,
+      "survived_horizon": 1,
+      "max_drawdown_absolute": -932.782965465253,
+      "max_drawdown_fraction": -0.33929416798933576,
+      "asset_return_fraction": 0.9529707142834531,
+      "wall_seconds": 42.607564210891724,
+      "final_active_listings": -50.0,
+      "horizon_fraction_with_listings": 0.05742009132420091
+    }
+  ],
+  "daily_reports": {
+    "expected_days": 365,
+    "available_days": 0,
+    "sha256": {},
+    "interpretation": "NO REPORTS: filtered fallback baseline"
+  },
+  "cautions": [
+    "daily_report includes cash/rating/price/stale-listing filters; not a pure sourcing ablation",
+    "Absent private reports => daily_report is filtered fallback, not report-informed",
+    "Final metrics and drawdown include settlement drain; dead shops remain in sample",
+    "Missing/failed executions excluded, never counted as business deaths",
+    "Survival can reflect an empty shelf; inspect horizon_fraction_with_listings",
+    "Small-sample bootstrap intervals are exploratory; no real-world ROI claim"
+  ]
+}
